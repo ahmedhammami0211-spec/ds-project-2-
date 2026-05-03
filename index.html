@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevPort — My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">DEV<span>PORT</span></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tag">— Full Stack Developer</p>
+      <h1>Building things<br/><em>that matter.</em></h1>
+      <p class="subtitle">I design and build modern web experiences with clean code and bold ideas.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="code-card">
+        <span class="line"><span class="kw">const</span> dev = {</span>
+        <span class="line indent"><span class="key">name</span>: <span class="str">"Alex"</span>,</span>
+        <span class="line indent"><span class="key">stack</span>: [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JS"</span>],</span>
+        <span class="line indent"><span class="key">docker</span>: <span class="bool">true</span>,</span>
+        <span class="line indent"><span class="key">cicd</span>: <span class="bool">true</span></span>
+        <span class="line">};</span>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="section-inner">
+      <h2>About Me</h2>
+      <p>I'm a developer passionate about clean architecture, automation, and building products that solve real problems. Currently learning DevOps practices — Docker, CI/CD, and cloud deployment.</p>
+      <div class="skills">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Docker</span><span>GitHub Actions</span><span>Linux</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="section-inner">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-num">01</div>
+          <h3>Containerized Web App</h3>
+          <p>Static website served via nginx inside a Docker container with a full CI/CD pipeline using GitHub Actions.</p>
+          <div class="tags"><span>Docker</span><span>nginx</span><span>GitHub Actions</span></div>
+        </div>
+        <div class="card">
+          <div class="card-num">02</div>
+          <h3>GitHub Collaboration Workflow</h3>
+          <p>Multi-branch repository with protected main, pull requests, code reviews and team collaboration best practices.</p>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>Branching</span></div>
+        </div>
+        <div class="card">
+          <div class="card-num">03</div>
+          <h3>Portfolio Website</h3>
+          <p>This very site — built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies, just clean code.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-inner">
+      <h2>Get In Touch</h2>
+      <p>Open to opportunities, collaborations, or just a good tech conversation.</p>
+      <a href="mailto:hello@devport.dev" class="btn">Say Hello →</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 DevPort. Built with ❤️ and Docker.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
