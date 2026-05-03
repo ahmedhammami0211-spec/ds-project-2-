@@ -2,10 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [main, develop]
+    branches: ["**"]
   pull_request:
     branches: [main, develop]
-
 jobs:
   test:
     name: Test HTML/CSS Files
